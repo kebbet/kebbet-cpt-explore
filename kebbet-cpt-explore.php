@@ -15,7 +15,7 @@ namespace kebbet\cpt\explore;
 const POSTTYPE = 'explore';
 const SLUG     = 'explore';
 const ICON     = 'rest-api';
-const MENUPOS  = 8;
+const MENUPOS  = 20;
 
 /**
  * Link to ICONS
