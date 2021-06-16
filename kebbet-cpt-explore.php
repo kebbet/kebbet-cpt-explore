@@ -3,7 +3,7 @@
  * Plugin Name: Kebbet plugins - Custom Post Type: explore
  * Plugin URI: https://github.com/kebbet/kebbet-cpt-explore
  * Description: Registers a Custom Post Type.
- * Version: 20210519.02
+ * Version: 20210616.01
  * Author: Erik Betshammar
  * Author URI: https://verkan.se
  *
@@ -278,3 +278,18 @@ require_once plugin_dir_path( __FILE__ ) . 'inc/at-a-glance.php';
  * Adds and modifies the admin columns for the post type.
  */
 require_once plugin_dir_path( __FILE__ ) . 'inc/admin-columns.php';
+
+/**
+ * Add an option page for the post type.
+ */
+function add_options_page() {
+	if ( function_exists( 'acf_add_options_page' ) ) {
+		acf_add_options_sub_page( array(
+
+			'page_title' => __( 'Archive settings', 'kebbet-cpt-explore' ),
+			'parent'     => 'edit.php?post_type=' . POSTTYPE,
+			'post_id'    => POSTTYPE,
+		) );
+	}
+}
+add_action( 'plugins_loaded', __NAMESPACE__ . '\add_options_page' );
