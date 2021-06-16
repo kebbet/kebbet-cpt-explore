@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kebbet plugins - Custom Post Type: explore\n"
-"POT-Creation-Date: 2021-06-15 21:57+0200\n"
-"PO-Revision-Date: 2021-06-15 22:00+0200\n"
+"POT-Creation-Date: 2021-06-16 14:17+0200\n"
+"PO-Revision-Date: 2021-06-16 14:19+0200\n"
 "Last-Translator: Erik Betshammar <info@verkan.se>\n"
 "Language-Team: Erik Betshammar <info@verkan.se>\n"
 "Language: sv_SE\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Last modified"
 msgstr "Senast ändrat"
 
-#: inc/admin-columns.php:40 kebbet-cpt-explore.php:82
+#: inc/admin-columns.php:40 kebbet-cpt-explore.php:86
 msgid "Featured image"
 msgstr "Utvald bild"
 
@@ -41,226 +41,234 @@ msgid_plural "%s explore posts"
 msgstr[0] "%s utforskainlägg"
 msgstr[1] "%s utforskainlägg"
 
-#: kebbet-cpt-explore.php:66
+#: kebbet-cpt-explore.php:70
 msgctxt "Post Type General Name"
 msgid "Explore"
 msgstr "Utforska"
 
-#: kebbet-cpt-explore.php:67
+#: kebbet-cpt-explore.php:71
 msgctxt "Post Type Singular Name"
 msgid "Explore"
 msgstr "Utforska"
 
-#: kebbet-cpt-explore.php:68
+#: kebbet-cpt-explore.php:72
 msgid "Explore"
 msgstr "Utforska"
 
-#: kebbet-cpt-explore.php:69
+#: kebbet-cpt-explore.php:73
 msgid "Explore post"
 msgstr "Utforskainlägg"
 
-#: kebbet-cpt-explore.php:70
+#: kebbet-cpt-explore.php:74
 msgid "Parent post:"
 msgstr "Överordnat inlägg:"
 
-#: kebbet-cpt-explore.php:71
+#: kebbet-cpt-explore.php:75
 msgid "All posts"
 msgstr "Alla inlägg"
 
-#: kebbet-cpt-explore.php:72
+#: kebbet-cpt-explore.php:76
 msgid "Add new"
 msgstr "Lägg till nytt"
 
-#: kebbet-cpt-explore.php:73
+#: kebbet-cpt-explore.php:77
 msgid "Add new post"
 msgstr "Lägg till nytt inlägg"
 
-#: kebbet-cpt-explore.php:74
+#: kebbet-cpt-explore.php:78
 msgid "New post"
 msgstr "Nytt inlägg"
 
-#: kebbet-cpt-explore.php:75
+#: kebbet-cpt-explore.php:79
 msgid "Edit post"
 msgstr "Redigera inlägg"
 
-#: kebbet-cpt-explore.php:76
+#: kebbet-cpt-explore.php:80
 msgid "Update post"
 msgstr "Uppdatera inlägg"
 
-#: kebbet-cpt-explore.php:77
+#: kebbet-cpt-explore.php:81
 msgid "View post"
 msgstr "Visa inlägg"
 
-#: kebbet-cpt-explore.php:78
+#: kebbet-cpt-explore.php:82
 msgid "View posts"
 msgstr "Visa inlägg"
 
-#: kebbet-cpt-explore.php:79
+#: kebbet-cpt-explore.php:83
 msgid "Search posts"
 msgstr "Sök inlägg"
 
-#: kebbet-cpt-explore.php:80
+#: kebbet-cpt-explore.php:84
 msgid "Not found"
 msgstr "Hittade inga inlägg"
 
-#: kebbet-cpt-explore.php:81
+#: kebbet-cpt-explore.php:85
 msgid "No posts found in Trash"
 msgstr "Inga inlägg hittades i papperskorgen"
 
-#: kebbet-cpt-explore.php:83
+#: kebbet-cpt-explore.php:87
 msgid "Set featured image"
 msgstr "Ange utvald bild"
 
-#: kebbet-cpt-explore.php:84
+#: kebbet-cpt-explore.php:88
 msgid "Remove featured image"
 msgstr "Ta bort utvald bild"
 
-#: kebbet-cpt-explore.php:85
+#: kebbet-cpt-explore.php:89
 msgid "Use as featured image"
 msgstr "Använd som utvald bild"
 
-#: kebbet-cpt-explore.php:86
+#: kebbet-cpt-explore.php:90
 msgid "Insert into item"
 msgstr "Infoga till inlägg"
 
-#: kebbet-cpt-explore.php:87
+#: kebbet-cpt-explore.php:91
 msgid "Uploaded to this post"
 msgstr "Uppladdade till detta inlägg"
 
-#: kebbet-cpt-explore.php:88
+#: kebbet-cpt-explore.php:92
 msgid "Items list"
 msgstr "Objektlista"
 
-#: kebbet-cpt-explore.php:89
+#: kebbet-cpt-explore.php:93
 msgid "Items list navigation"
 msgstr "Navigering för objektlista"
 
-#: kebbet-cpt-explore.php:90
+#: kebbet-cpt-explore.php:94
 msgid "Filter items list"
 msgstr "Filtrera objektlista"
 
-#: kebbet-cpt-explore.php:91
+#: kebbet-cpt-explore.php:95
 msgid "Explore posts archive"
 msgstr "Utforskainlägg-arkiv"
 
-#: kebbet-cpt-explore.php:92
+#: kebbet-cpt-explore.php:96
 msgid "Explore post attributes"
 msgstr "Utforskainlägg-attribut"
 
-#: kebbet-cpt-explore.php:93
+#: kebbet-cpt-explore.php:97
 msgid "Post published"
 msgstr "Inlägget publicerat"
 
-#: kebbet-cpt-explore.php:94
+#: kebbet-cpt-explore.php:98
 msgid "Post published privately"
 msgstr "Inlägget publicerades privat"
 
-#: kebbet-cpt-explore.php:95
+#: kebbet-cpt-explore.php:99
 msgid "Post reverted to Draft"
 msgstr "Inlägget återställdes till utkast"
 
-#: kebbet-cpt-explore.php:96
+#: kebbet-cpt-explore.php:100
 msgid "Post scheduled"
 msgstr "Inlägget schemalagt"
 
-#: kebbet-cpt-explore.php:97
+#: kebbet-cpt-explore.php:101
 msgid "Post updated"
 msgstr "Inlägg uppdaterat"
 
-#: kebbet-cpt-explore.php:122
+#: kebbet-cpt-explore.php:131
 msgid "Explore post type"
-msgstr ""
+msgstr "Inläggstyp utforska"
 
-#: kebbet-cpt-explore.php:123
+#: kebbet-cpt-explore.php:132
 msgid "Custom post type for explore posts"
 msgstr "Anpassad inläggstyp för utforskainlägg"
 
-#: kebbet-cpt-explore.php:193 kebbet-cpt-explore.php:196
+#: kebbet-cpt-explore.php:202 kebbet-cpt-explore.php:205
 msgid "Post updated."
 msgstr "Inlägget uppdaterades."
 
-#: kebbet-cpt-explore.php:194
+#: kebbet-cpt-explore.php:203
 msgid "Custom field updated."
 msgstr "Anpassat fält uppdaterat."
 
-#: kebbet-cpt-explore.php:195
+#: kebbet-cpt-explore.php:204
 msgid "Custom field deleted."
 msgstr "Anpassat fält borttaget."
 
 #. translators: %s: date and time of the revision
-#: kebbet-cpt-explore.php:198
+#: kebbet-cpt-explore.php:207
 #, php-format
 msgid "Post restored to revision from %s"
 msgstr "Inlägget har återställts till version från %s"
 
-#: kebbet-cpt-explore.php:199
+#: kebbet-cpt-explore.php:208
 msgid "Post published."
 msgstr "Inlägget publicerat."
 
-#: kebbet-cpt-explore.php:200
+#: kebbet-cpt-explore.php:209
 msgid "Post saved."
 msgstr "Inlägget sparat."
 
-#: kebbet-cpt-explore.php:201
+#: kebbet-cpt-explore.php:210
 msgid "Post submitted."
 msgstr "Inlägget inlagt."
 
 #. translators: %1$s: date and time of the scheduled post
-#: kebbet-cpt-explore.php:204
+#: kebbet-cpt-explore.php:213
 #, php-format
 msgid "Post scheduled for: <strong>%1$s</strong>."
 msgstr "Inlägget är schemalagt till: <strong>%1$s</strong>."
 
-#: kebbet-cpt-explore.php:205
+#: kebbet-cpt-explore.php:214
 msgid "M j, Y @ G:i"
 msgstr "Y M D @ H:i"
 
-#: kebbet-cpt-explore.php:207
+#: kebbet-cpt-explore.php:216
 msgid "Post draft updated."
 msgstr "Utkast uppdaterades."
 
-#: kebbet-cpt-explore.php:215
+#: kebbet-cpt-explore.php:224
 msgid "View Post"
 msgstr "Visa inlägg"
 
-#: kebbet-cpt-explore.php:221
+#: kebbet-cpt-explore.php:230
 msgid "Preview Post"
 msgstr "Förhandsgranska inlägg"
 
 #. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-explore.php:247
+#: kebbet-cpt-explore.php:256
 msgid "%$1s post updated."
 msgid_plural "%$2s posts updated."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%$1s inlägg uppdaterat."
+msgstr[1] "%2$s inlägg uppdaterades."
 
 #. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-explore.php:249
+#: kebbet-cpt-explore.php:258
 msgid "%$1s post not updated, somebody is editing it."
 msgid_plural "%$2s posts not updated, somebody is editing them."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%$1s inlägg uppdaterades inte, någon redigerar det."
+msgstr[1] "%$2s inlägg uppdaterades inte, någon redigerar dem."
 
 #. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-explore.php:251
+#: kebbet-cpt-explore.php:260
 msgid "%$1s post permanently deleted."
 msgid_plural "%$2s posts permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%$1s inlägg togs bort permanent."
+msgstr[1] "%$2s inlägg togs bort permanent."
 
 #. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-explore.php:253
+#: kebbet-cpt-explore.php:262
 msgid "%$1s post moved to the Trash."
 msgid_plural "%$2s posts moved to the Trash."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%$1s inlägg flyttades till papperskorgen."
+msgstr[1] "%$2s inlägg flyttades till papperskorgen."
 
 #. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-explore.php:255
+#: kebbet-cpt-explore.php:264
 msgid "%$1s post restored from the Trash."
 msgid_plural "%$2s posts restored from the Trash."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%$1s inlägg återställdes från papperskorgen."
+msgstr[1] "%$2s inlägg återställdes från papperskorgen."
+
+#: kebbet-cpt-explore.php:289
+msgid "Archive settings"
+msgstr "Arkivinställningar"
+
+#: kebbet-cpt-explore.php:290
+msgid "Archive settings for explore"
+msgstr "Arkivinställningar för utforska"
 
 #. Plugin Name of the plugin/theme
 msgid "Kebbet plugins - Custom Post Type: explore"
