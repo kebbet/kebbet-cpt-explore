@@ -287,6 +287,7 @@ function add_options_page() {
 		acf_add_options_sub_page( array(
 
 			'page_title' => __( 'Archive settings', 'kebbet-cpt-explore' ),
+			'menu_title' => __( 'Archive settings for explore', 'kebbet-cpt-explore' ),
 			'parent'     => 'edit.php?post_type=' . POSTTYPE,
 			'post_id'    => POSTTYPE,
 		) );
