@@ -3,7 +3,7 @@
  * Plugin Name: Kebbet plugins - Custom Post Type: explore
  * Plugin URI: https://github.com/kebbet/kebbet-cpt-explore
  * Description: Registers a Custom Post Type.
- * Version: 20210616.01
+ * Version: 20210627.01
  * Author: Erik Betshammar
  * Author URI: https://verkan.se
  *
