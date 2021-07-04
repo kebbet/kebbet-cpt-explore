@@ -1,22 +1,24 @@
 <?php
 /**
  * Plugin Name: Kebbet plugins - Custom Post Type: explore
- * Plugin URI: https://github.com/kebbet/kebbet-cpt-explore
+ * Plugin URI:  https://github.com/kebbet/kebbet-cpt-explore
  * Description: Registers a Custom Post Type.
- * Version: 20210627.01
- * Author: Erik Betshammar
- * Author URI: https://verkan.se
+ * Version:     20210704.01
+ * Author:      Erik Betshammar
+ * Author URI:  https://verkan.se
  *
  * @package kebbet-cpt-explore
+ * @author Erik Betshammar
  */
 
 namespace kebbet\cpt\explore;
 
-const POSTTYPE = 'explore';
-const SLUG     = 'explore';
-const ICON     = 'rest-api';
-const MENUPOS  = 20;
-const THUMBNAIL = true;
+const POSTTYPE    = 'explore';
+const SLUG        = 'explore';
+const ICON        = 'rest-api';
+const MENUPOS     = 20;
+const THUMBNAIL   = true;
+const ARCHIVE_OPT = false;
 
 /**
  * Link to ICONS
@@ -146,7 +148,7 @@ function register() {
 		'show_in_admin_bar'   => true,
 		'show_in_nav_menus'   => true,
 		'can_export'          => true,
-		'has_archive'         => SLUG,
+		'has_archive'         => false,
 		'exclude_from_search' => false,
 		'publicly_queryable'  => true,
 		'rewrite'             => $rewrite_args,
@@ -297,4 +299,7 @@ function add_options_page() {
 		) );
 	}
 }
-add_action( 'plugins_loaded', __NAMESPACE__ . '\add_options_page' );
+
+if ( true === ARCHIVE_OPT ) {
+	add_action( 'plugins_loaded', __NAMESPACE__ . '\add_options_page' );
+}
