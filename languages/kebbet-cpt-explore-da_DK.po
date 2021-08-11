@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kebbet plugins - Custom Post Type: explore\n"
+"POT-Creation-Date: 2021-08-06 10:41+0200\n"
+"PO-Revision-Date: 2021-08-06 15:07+0200\n"
+"Last-Translator: Erik Betshammar <info@verkan.se>\n"
+"Language-Team: Erik Betshammar <info@verkan.se>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: kebbet-cpt-explore.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/admin-columns.php:39
+msgid "Last modified"
+msgstr "Sidst ændret"
+
+#: inc/admin-columns.php:40 kebbet-cpt-explore.php:88
+msgid "Featured image"
+msgstr "Fremhævet billede"
+
+#: inc/admin-columns.php:71
+msgid "No image is set."
+msgstr "Der er ikke angivet noget billede."
+
+#. translators: %s: counter of how many posts.
+#: inc/at-a-glance.php:34
+#, php-format
+msgid "%s explore post"
+msgid_plural "%s explore posts"
+msgstr[0] "%s explore-indlæg"
+msgstr[1] "%s explore-indlæg"
+
+#: kebbet-cpt-explore.php:72
+msgctxt "Post Type General Name"
+msgid "Explore"
+msgstr "Explore"
+
+#: kebbet-cpt-explore.php:73
+msgctxt "Post Type Singular Name"
+msgid "Explore"
+msgstr "Explore"
+
+#: kebbet-cpt-explore.php:74
+msgid "Explore"
+msgstr "Explore"
+
+#: kebbet-cpt-explore.php:75
+msgid "Explore post"
+msgstr "Explore indlæg"
+
+#: kebbet-cpt-explore.php:76
+msgid "Parent post:"
+msgstr "Overordnet indlæg:"
+
+#: kebbet-cpt-explore.php:77
+msgid "All posts"
+msgstr "Alle indlæg"
+
+#: kebbet-cpt-explore.php:78
+msgid "Add new"
+msgstr "Tilføj ny"
+
+#: kebbet-cpt-explore.php:79
+msgid "Add new post"
+msgstr "Tilføj nyt indlæg"
+
+#: kebbet-cpt-explore.php:80
+msgid "New post"
+msgstr "Nyt indlæg"
+
+#: kebbet-cpt-explore.php:81
+msgid "Edit post"
+msgstr "Rediger indlæg"
+
+#: kebbet-cpt-explore.php:82
+msgid "Update post"
+msgstr "Opdater indlæg"
+
+#: kebbet-cpt-explore.php:83
+msgid "View post"
+msgstr "Vis indlæg"
+
+#: kebbet-cpt-explore.php:84
+msgid "View posts"
+msgstr "Vis indlæg"
+
+#: kebbet-cpt-explore.php:85
+msgid "Search posts"
+msgstr "Søg indlæg"
+
+#: kebbet-cpt-explore.php:86
+msgid "Not found"
+msgstr "Ikke fundet"
+
+#: kebbet-cpt-explore.php:87
+msgid "No posts found in Trash"
+msgstr "Der blev ikke fundet nogen indlæg i papirkurven"
+
+#: kebbet-cpt-explore.php:89
+msgid "Set featured image"
+msgstr "Vælg som fremhævet billede"
+
+#: kebbet-cpt-explore.php:90
+msgid "Remove featured image"
+msgstr "Fjern fremhævet billede"
+
+#: kebbet-cpt-explore.php:91
+msgid "Use as featured image"
+msgstr "Brug som fremhævet billede"
+
+#: kebbet-cpt-explore.php:92
+msgid "Insert into item"
+msgstr "Indsæt"
+
+#: kebbet-cpt-explore.php:93
+msgid "Uploaded to this post"
+msgstr "Uploadet til dette indlæg"
+
+#: kebbet-cpt-explore.php:94
+msgid "Items list"
+msgstr ""
+
+#: kebbet-cpt-explore.php:95
+msgid "Items list navigation"
+msgstr ""
+
+#: kebbet-cpt-explore.php:96
+msgid "Filter items list"
+msgstr ""
+
+#: kebbet-cpt-explore.php:97
+msgid "Explore posts archive"
+msgstr ""
+
+#: kebbet-cpt-explore.php:98
+msgid "Explore post attributes"
+msgstr "Attributter før exploreindlægs"
+
+#: kebbet-cpt-explore.php:99
+msgid "Post published"
+msgstr "Indlæg udgivet"
+
+#: kebbet-cpt-explore.php:100
+msgid "Post published privately"
+msgstr ""
+
+#: kebbet-cpt-explore.php:101
+msgid "Post reverted to Draft"
+msgstr "Indlæg tilbageført til kladde"
+
+#: kebbet-cpt-explore.php:102
+msgid "Post scheduled"
+msgstr "Indlæg planlagt"
+
+#: kebbet-cpt-explore.php:103
+msgid "Post updated"
+msgstr "Indlæg opdateret"
+
+#: kebbet-cpt-explore.php:105
+msgid "Filter posts by date"
+msgstr ""
+
+#: kebbet-cpt-explore.php:106
+msgid "Explore post link"
+msgstr ""
+
+#: kebbet-cpt-explore.php:107
+msgid "A link to an explore post"
+msgstr ""
+
+#: kebbet-cpt-explore.php:137
+msgid "Explore post type"
+msgstr "Explore indlægstype"
+
+#: kebbet-cpt-explore.php:138
+msgid "Custom post type for explore posts"
+msgstr "Brugerdefineret indlægstype till exploreindlæg"
+
+#: kebbet-cpt-explore.php:208 kebbet-cpt-explore.php:211
+msgid "Post updated."
+msgstr "Indlæg opdateret."
+
+#: kebbet-cpt-explore.php:209
+msgid "Custom field updated."
+msgstr "Brugerdefineret felt opdateret."
+
+#: kebbet-cpt-explore.php:210
+msgid "Custom field deleted."
+msgstr "Brugerdefineret felt slettet."
+
+#. translators: %s: date and time of the revision
+#: kebbet-cpt-explore.php:213
+#, php-format
+msgid "Post restored to revision from %s"
+msgstr "Post gendannet til revision fra %s"
+
+#: kebbet-cpt-explore.php:214
+msgid "Post published."
+msgstr "Indlæg udgivet."
+
+#: kebbet-cpt-explore.php:215
+msgid "Post saved."
+msgstr "Indlæg gemt."
+
+#: kebbet-cpt-explore.php:216
+msgid "Post submitted."
+msgstr "Indlæg indsendt."
+
+#. translators: %1$s: date and time of the scheduled post
+#: kebbet-cpt-explore.php:219
+#, php-format
+msgid "Post scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: kebbet-cpt-explore.php:220
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: kebbet-cpt-explore.php:222
+msgid "Post draft updated."
+msgstr "Indlægskladde opdateret."
+
+#: kebbet-cpt-explore.php:230
+msgid "View Post"
+msgstr "Vis indlæg"
+
+#: kebbet-cpt-explore.php:236
+msgid "Preview Post"
+msgstr ""
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-explore.php:262
+msgid "%$1s post updated."
+msgid_plural "%$2s posts updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-explore.php:264
+msgid "%$1s post not updated, somebody is editing it."
+msgid_plural "%$2s posts not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-explore.php:266
+msgid "%$1s post permanently deleted."
+msgid_plural "%$2s posts permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-explore.php:268
+msgid "%$1s post moved to the Trash."
+msgid_plural "%$2s posts moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-explore.php:270
+msgid "%$1s post restored from the Trash."
+msgid_plural "%$2s posts restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kebbet-cpt-explore.php:295
+msgid "Archive settings"
+msgstr ""
+
+#: kebbet-cpt-explore.php:296
+msgid "Archive settings for explore"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Kebbet plugins - Custom Post Type: explore"
+msgstr "Kebbet plugins - Custom Post Type: Explore"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/kebbet/kebbet-cpt-explore"
+msgstr "https://github.com/kebbet/kebbet-cpt-explore"
+
+#. Description of the plugin/theme
+msgid "Registers a Custom Post Type."
+msgstr "Registrerer en brugerdefineret posttype."
+
+#. Author of the plugin/theme
+msgid "Erik Betshammar"
+msgstr "Erik Betshammar"
+
+#. Author URI of the plugin/theme
+msgid "https://verkan.se"
+msgstr "https://verkan.se"
