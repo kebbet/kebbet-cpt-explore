@@ -6,6 +6,7 @@
  * Version:     20210704.01
  * Author:      Erik Betshammar
  * Author URI:  https://verkan.se
+ * Update URI:  false
  *
  * @package kebbet-cpt-explore
  * @author Erik Betshammar
