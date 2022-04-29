@@ -286,21 +286,18 @@ require_once plugin_dir_path( __FILE__ ) . 'inc/at-a-glance.php';
  */
 require_once plugin_dir_path( __FILE__ ) . 'inc/admin-columns.php';
 
-/**
- * Add an option page for the post type.
- */
-function add_options_page() {
-	if ( function_exists( 'acf_add_options_page' ) ) {
+if ( true === ARCHIVE_OPT && function_exists( 'acf_add_options_page' ) ) {
+	/**
+	 * Add an option page for the post type.
+	 */
+	function add_options_page() {
 		acf_add_options_sub_page( array(
-
 			'page_title' => __( 'Archive settings', 'kebbet-cpt-explore' ),
 			'menu_title' => __( 'Archive settings for explore', 'kebbet-cpt-explore' ),
 			'parent'     => 'edit.php?post_type=' . POSTTYPE,
 			'post_id'    => POSTTYPE,
+			'slug'       => 'options', // Since title is translated.
 		) );
 	}
-}
-
-if ( true === ARCHIVE_OPT ) {
-	add_action( 'plugins_loaded', __NAMESPACE__ . '\add_options_page' );
+	add_action( 'acf/init', __NAMESPACE__ . '\add_options_page' );
 }
